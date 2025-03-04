@@ -1,0 +1,71 @@
+:root {
+  --primary-color: wheat;
+  --background-color: #f4f4f4;
+  --border-color: #333;
+  --text-color: #333;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 20px;
+  direction: rtl;
+}
+
+.container {
+  max-width: none;
+  margin: 0 auto;
+}
+
+.project-image {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project-image img {
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+.project-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(206, 129, 129, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.main-btn {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  border: 1px solid var(--border-color);
+}
+
+.main-btn:hover {
+  background-color: darken(wheat, 10%);
+  transform: scale(1.05);
+}
+
+.line-p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: var(--border-color);
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 10px;
+}
