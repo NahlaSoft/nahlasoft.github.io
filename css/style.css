@@ -5,6 +5,7 @@
   --text-color: #333;
 }
 
+/* Default styles */
 body {
   font-family: carlito, calibri, Arial, sans-serif;
   background-color: var(--background-color);
@@ -22,6 +23,12 @@ body {
   background-color: var(--primary-color);
   border-radius: 8px;
   text-align: center;
+}
+.title-center-height {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 60px; /* Example height */
 }
 
 .project-image {
@@ -58,6 +65,7 @@ body {
   font-weight: bold;
   transition: all 0.3s ease;
   border: 1px solid var(--border-color);
+  text-align: center;
 }
 
 .main-btn:hover {
@@ -78,4 +86,11 @@ h2 {
 .footer {
   text-align: center;
   background-color: var(--primary-color);
+}
+
+/* Styles for window width less than 300px */
+@media (max-width: 350px) {
+  .title {
+    text-align: center;
+  }
 }
