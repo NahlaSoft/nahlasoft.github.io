@@ -1,4 +1,9 @@
 {
-      "version": "1.0.1",
-      "comment": "Fix 2 bugs."
+    "newprog-updates": [
+        {
+            "version": "1.0.0",
+            "comment": "",
+            "url": ""
+        }
+    ]
 }
